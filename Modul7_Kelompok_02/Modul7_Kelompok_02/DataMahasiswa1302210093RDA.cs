@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Modul7_Kelompok_02
 {
-    internal class DataMahasiswa1302210025
+    internal class DataMahasiswa1302210093
     {
 
         public void ReadJSON()

@@ -1,0 +1,21 @@
+{
+  "firstName": "Ghaza",
+  "lastName": "Gymnastiar",
+  "gender": "male",
+  "age": 20,
+  "address": {
+    "streetAddress": "Kota Baru",
+    "city": "Karawang",
+    "state": "West Java"
+  },
+  "courses": [
+    {
+      "code": "CRI2C4",
+      "name": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "code": "CRI2XX",
+      "name": "Nama Mata Kuliah"
+    }
+  ]
+}
