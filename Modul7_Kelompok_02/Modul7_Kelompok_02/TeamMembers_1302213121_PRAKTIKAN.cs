@@ -14,13 +14,6 @@ namespace Modul7_Kelompok_02
             String jsonString = File.ReadAllText("D:\\Jurnal_MOD7_KELOMPOK_02\\Modul7_Kelompok_02\\Modul7_Kelompok_02\\jurnal7_2_1302213121.json");
             Membersdata member = JsonSerializer.Deserialize<Membersdata>(jsonString);
             Console.WriteLine("Team member list:");
-            /*
-            for(int i = 0;i<members.memberlist.Count;i++)
-            {
-                Console.WriteLine(members.memberlist[i].nim+" " + members.memberlist[i].firstName+" "
-                    + members.memberlist[i].lastName+" "+ members.memberlist[i].age+" "+ members.memberlist[i].gender);
-            }
-            */
             foreach (var item in member.members)
             {
                 Console.WriteLine(item.nim + " " + item.firstName + " "

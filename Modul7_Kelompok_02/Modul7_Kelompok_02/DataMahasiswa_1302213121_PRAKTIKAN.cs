@@ -15,7 +15,9 @@ namespace Modul7_Kelompok_02
         {
             String jsonString = File.ReadAllText("D:\\Jurnal_MOD7_KELOMPOK_02\\Modul7_Kelompok_02\\Modul7_Kelompok_02\\jurnal7_1_1302213121.json");
             mahasiswa mahasiswa = JsonSerializer.Deserialize<mahasiswa>(jsonString);
-            Console.WriteLine("Nama " + mahasiswa.firstName + " " + mahasiswa.lastName + " berjenis kelamin " + mahasiswa.gender +" berumur "+mahasiswa.age+" tahun " +" beralamat di " + mahasiswa.address.streetaddress + "," + mahasiswa.address.city + "," + mahasiswa.address.state);
+            Console.WriteLine("Nama " + mahasiswa.firstName + " " + mahasiswa.lastName + " berjenis kelamin " 
+                + mahasiswa.gender +" berumur "+mahasiswa.age+" tahun " +" beralamat di " + mahasiswa.address.streetaddress 
+                + "," + mahasiswa.address.city + "," + mahasiswa.address.state);
             for (int i = 0; i < mahasiswa.courses.Count; i++)
             {
                 Console.WriteLine("MK " + (i + 1) + " " + mahasiswa.courses[i].code + " - " + mahasiswa.courses[i].name);
