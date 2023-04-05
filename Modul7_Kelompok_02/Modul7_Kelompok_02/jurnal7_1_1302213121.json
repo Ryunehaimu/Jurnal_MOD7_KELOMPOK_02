@@ -1,0 +1,15 @@
+{
+   "firstName": "Dede",
+   "lastName": "Rahmat",
+   "gender": "male",
+   "age": 20,
+   "address": {
+       "streetAddress": "Sangkrah",
+       "city": "Surakarta",
+       "state": "Central Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CRI2C5", "name": "Pemrograman Berorientasi Objek" }
+   ]
+}
