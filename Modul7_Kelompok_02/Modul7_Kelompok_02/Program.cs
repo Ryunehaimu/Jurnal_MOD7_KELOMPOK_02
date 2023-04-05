@@ -6,5 +6,8 @@ internal class Program
     {
         DataMahasiswa1302210093 dataMahasiswa = new DataMahasiswa1302210093();
         dataMahasiswa.ReadJSON();
+
+        TeamMembers1302210093 team = new TeamMembers1302210093();
+        team.readJSON();
     }
 }
