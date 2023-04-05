@@ -1,0 +1,41 @@
+{
+  "members" : [
+    {
+       "firstName": "Tangguh",
+       "lastName": "Laks",
+       "gender": "male",
+       "age": 20,
+       "nim": "130221025"
+    },
+    {
+       "firstName": "Fathur",
+       "lastName": "Kosasih",
+       "gender": "male",
+       "age": 20,
+       "nim": "1302210063"
+    },
+    {
+      "firstName": "Ghaza",
+      "lastName": "Gymnastiar",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302210093"
+    }
+    ,
+    {
+      "firstName": "Dede",
+      "lastName": "Rar",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302213121"
+    }
+    ,
+    {
+      "firstName": "Rizky",
+      "lastName": "Firdaus",
+      "gender": "male",
+      "age": 20,
+      "nim": "1302210086"
+    }
+  ]
+}
