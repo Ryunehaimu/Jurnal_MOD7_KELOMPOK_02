@@ -9,5 +9,8 @@ internal class Program
 
         TeamMembers1302210086 team = new TeamMembers1302210086();
         team.readJSON();
+
+        GlossaryItem_1302213121_PRAKTIKAN glossary = new GlossaryItem_1302213121_PRAKTIKAN();
+        glossary.ReadJSON();
     }
 }
